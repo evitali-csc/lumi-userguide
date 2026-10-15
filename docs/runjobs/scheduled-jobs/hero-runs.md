@@ -41,7 +41,11 @@ through the general contact form, as the "large-scale runs" category.
   The idea here is to convince us that you are actually ready to utilize the
   time slot. For scaling runs we require at least one run with the code at the
   partition limits, so the largest run you can get through in normal production
-  use. For workflows, we require at least a description of how they will fill the
+  use. We also require a strong/weak scaling to check parallel efficiency of the
+  target run. If you plan a run with same input to see how faster would it get,
+  then we would like to receive a strong scaling. If you plan to scale the input,
+  then provide a weak scaling.
+  For workflows, we require at least a description of how they will fill the
   requested resources and how they will efficiently use them and achieve
   something that cannot be done in the normal production queues. As well as
   evidence that you already have it running on LUMI.

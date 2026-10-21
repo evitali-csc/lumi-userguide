@@ -44,7 +44,7 @@ through the general contact form, as the "large-scale runs" category.
   use. We also require a strong/weak scaling to check parallel efficiency of the
   target run. If you plan a run with same input to see how faster would it get,
   then we would like to receive a strong scaling. If you plan to scale the input,
-  then provide a weak scaling.
+  then provide a weak scaling. Include initialization time in the scaling plots.
   For workflows, we require at least a description of how they will fill the
   requested resources and how they will efficiently use them and achieve
   something that cannot be done in the normal production queues. As well as
